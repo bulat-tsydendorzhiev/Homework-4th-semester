@@ -1,11 +1,11 @@
 ﻿namespace EvenNumbers
 
-module EvenNumbersCounter =
+module EvenNumbersCounters =
     let countViaMap list = 
-        list |> Seq.map(fun x -> (x + 1) % 2) |> Seq.sum
+        list |> List.map(fun x -> abs (x + 1) % 2) |> List.sum
 
     let countViaFilter list =
-        list |> Seq.filter(fun x -> x % 2 = 0) |> Seq.length
+        list |> List.filter(fun x -> x % 2 = 0) |> List.length
 
     let countViaFold list =
-        list |> Seq.fold(fun acc x -> if x % 2 = 0 then acc + 1 else acc) 0
+        list |> List.fold(fun acc x -> if x % 2 = 0 then acc + 1 else acc) 0
