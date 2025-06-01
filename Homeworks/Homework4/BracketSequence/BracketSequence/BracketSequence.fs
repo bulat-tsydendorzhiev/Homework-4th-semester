@@ -21,7 +21,7 @@ let isBalanced (str: string) =
             match char with
             | c when isOpeningBracket c -> isBalancedInternal (char :: openings) (i + 1)
             | c when isClosingBracket c ->
-                if isCorrectPairOfBrackets (List.head openings) c then
+                if (List.isEmpty openings |> not) && isCorrectPairOfBrackets (List.head openings) c then
                     isBalancedInternal (List.tail openings) (i + 1)
                 else
                     false

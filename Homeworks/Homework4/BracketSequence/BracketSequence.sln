@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.35906.104 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BracketSequence", "BracketSequence\BracketSequence.fsproj", "{CC291BBD-25FD-41D5-9F38-FD362F6D7EAD}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BracketSequence.Tests", "BracketSequence.Tests\BracketSequence.Tests.fsproj", "{0B949AED-5423-4621-955B-7CAB066A599E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CC291BBD-25FD-41D5-9F38-FD362F6D7EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC291BBD-25FD-41D5-9F38-FD362F6D7EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC291BBD-25FD-41D5-9F38-FD362F6D7EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B949AED-5423-4621-955B-7CAB066A599E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B949AED-5423-4621-955B-7CAB066A599E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B949AED-5423-4621-955B-7CAB066A599E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B949AED-5423-4621-955B-7CAB066A599E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
