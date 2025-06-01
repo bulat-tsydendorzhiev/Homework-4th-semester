@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.35906.104 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PrimeNumbers", "PrimeNumbers\PrimeNumbers.fsproj", "{AA54E845-BA5B-4FE9-992F-3F4DC7ACEB86}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PrimeNumbers.Tests", "PrimeNumbers.Tests\PrimeNumbers.Tests.fsproj", "{193B90CB-0521-4F8A-82A9-9E397468DAB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AA54E845-BA5B-4FE9-992F-3F4DC7ACEB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA54E845-BA5B-4FE9-992F-3F4DC7ACEB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA54E845-BA5B-4FE9-992F-3F4DC7ACEB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193B90CB-0521-4F8A-82A9-9E397468DAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193B90CB-0521-4F8A-82A9-9E397468DAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193B90CB-0521-4F8A-82A9-9E397468DAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193B90CB-0521-4F8A-82A9-9E397468DAB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
