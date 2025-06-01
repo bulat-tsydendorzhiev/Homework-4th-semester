@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.35906.104 d17.14
+VisualStudioVersion = 17.14.35906.104
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ParseTree", "ParseTree\ParseTree.fsproj", "{41901A8D-E391-4758-9F1E-9D8F1FDBABFF}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ParseTree.Tests", "ParseTree.Tests\ParseTree.Tests.fsproj", "{7FC81931-2F59-4646-846B-058A4450BC04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{41901A8D-E391-4758-9F1E-9D8F1FDBABFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41901A8D-E391-4758-9F1E-9D8F1FDBABFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41901A8D-E391-4758-9F1E-9D8F1FDBABFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC81931-2F59-4646-846B-058A4450BC04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC81931-2F59-4646-846B-058A4450BC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC81931-2F59-4646-846B-058A4450BC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC81931-2F59-4646-846B-058A4450BC04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
