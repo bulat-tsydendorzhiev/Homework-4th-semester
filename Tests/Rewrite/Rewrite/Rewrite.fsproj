@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="BlockingQueue.fs" />
     <Compile Include="Rhomb.fs" />
     <Compile Include="Supermap.fs" />
   </ItemGroup>
