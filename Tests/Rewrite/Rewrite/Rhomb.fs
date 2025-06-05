@@ -7,6 +7,7 @@ let createRhombLines n =
     [0..2 * (n - 1)] |> List.map (fun k -> 
         String.replicate (spaceCount k) " " + String.replicate (starCount k) "*" + String.replicate (spaceCount k) " ")
 
+/// Prints the rhomb with side `n`.
 let printRhomb n =
     createRhombLines n
     |> List.iter (printfn "%s")
